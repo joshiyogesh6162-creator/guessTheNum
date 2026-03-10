@@ -1,9 +1,26 @@
+/* main margin and padding for whole webpage */
 *{
     margin: 0px;
     padding: 0px;
 }
 
+/* background image */
 .main{
     background-image: url(num.png);
 }
 
+header {
+    display: flex;
+    align-items: center;     /* vertical alignment */
+    justify-content: space-between; /* logo left, menu right */
+    padding: 10px 40px;
+}
+
+.logo{
+    font-family: 'Pacifico',cursive;
+    color: #FFFFFF;
+}
+
+.cc{
+    color: #FF6B00;
+}
