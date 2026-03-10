@@ -9,6 +9,7 @@
     background-image: url(num.png);
 }
 
+/* css for whole header */
 header {
     display: flex;
     align-items: center;     /* vertical alignment */
@@ -16,11 +17,42 @@ header {
     padding: 10px 40px;
 }
 
+/*css for logo font and for the color of first part of logo */
 .logo{
     font-family: 'Pacifico',cursive;
     color: #FFFFFF;
 }
 
+/*color for remaining part of the logo */
 .cc{
     color: #FF6B00;
+}
+
+/* intro for the webpage */
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.heading{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    
+    color: #FF9A40;   /* attention grabbing color */
+    
+    margin-bottom: 20px;
+}
+
+.mintro{
+    font-size: 18px;
+    max-width: 600px;
+    
+    color: #E5E5E5;
+    line-height: 1.6;
 }
