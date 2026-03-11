@@ -56,3 +56,52 @@ header {
     color: #E5E5E5;
     line-height: 1.6;
 }
+
+/* box container */
+
+.container{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    
+}
+
+.card {
+    width: 320px;
+    background: rgba(0, 0, 0, 0.75); 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    height:50vh;
+    border-radius: 15px;
+    margin: 0px 50px;
+    gap: 250px;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+button{
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.single{
+    background:#1E293B;
+    color:white;
+}
+
+.double{
+    background:#1E293B;
+    color:white;
+}
